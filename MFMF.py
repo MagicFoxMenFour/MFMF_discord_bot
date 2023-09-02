@@ -146,4 +146,4 @@ async def help(ctx):
     embed.add_field(name="Со всеми осальными командами вы можете ознакомиться прописав в чате '/' (высветится список со всеми слеш командами)", value='', inline=False)
     await ctx.send(embed=embed)
 
-bot.run("MTA3OTcxMDQ5OTA2ODk4MTI3OA.G4DJZo.LHjC5wZHl3zG1ZFizdB3OHU6L2Gggg9viYRhrE")
+bot.run(API_KEY)
